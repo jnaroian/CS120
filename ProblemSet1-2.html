@@ -1,1 +1,174 @@
-<h1> Coming Soon</h1>
+<html>
+<style>
+    p, body, h1, h2{
+        font-family: sans-serif;
+        @media (max-width: 980px){
+        display:block;
+        font-size: 20px;
+     }
+    }
+    h1, h2{
+       margin-bottom: 30px;
+       color: blueviolet; 
+       font-size: 25px;
+       @media (max-width: 980px){
+        display:block;
+        font-size: 40px;
+     }
+    }
+    table{
+        margin-top: 60px;
+        border-style: solid;
+        border-width: 5px;
+        @media (max-width: 980px){
+        display:block;
+        font-size: 20px;
+     }
+    }
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+    }
+    .img{
+        background: url(amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg);
+        background-size: 100%;
+        width: 50%;
+        height: 75%;
+        float: left;
+        @media (max-width: 980px){
+        display:block;
+        height: 40%;
+     }
+    }
+    .adjText{
+        background: gold;
+        width: 50%;
+        float: right;
+        @media (max-width: 980px){
+        display:block;
+        font-size: 30px;
+     }
+    }
+
+    tr:nth-child(even) {
+            background-color: rgb(209, 51, 72);
+        }
+    .icons{
+      position:absolute;
+      top:100px;
+      right: 35px;
+     }
+
+</style>
+<body>
+<head>
+  <title>Jacob Naroian</title>
+</head>
+  <h1> Jacob Naroian</h1>
+  <p style "font-family: sans-serif">I wanted to take this class because I really want to learn how to make websites. <br>
+    I have experience with python, specifically algorithm writing, and knowing how to <br>
+    write and read CSS and html will integrate with my python knowledge and make me a<br>
+     better programmer</p>
+  <li>Cheeseburgers</li>
+    <li>Philly Cheesesteak</li>
+    <li>Peanut Butter</li> 
+  <h2> <a href="https://www.daveshotchicken.com" add target="_blank"> Favorite restaurant: Dave's Hot Chicken</a><br>
+    I really like this restaurant because I used to go there with my friends and I <br>
+    have a lot of good memories about it. The food is also really good so that's a plus. </a></h2>
+    <div class="img"> 
+    </div>
+    <div class="adjText">    The best way to serve and eat a burger in my opinion is with french fries and ketchup.<br>
+        I also do not like pickles or onions on my burger so I would prefer those to not be <br>
+        included. As long as the burger is medium rare or medium cooked, it will be equally good. </div>
+   <div class="icons">
+    <img src = "twitter.webp" width="40" height="40">
+    <img src = "facebook.png" width="40" height="40">
+   </div>
+<table class="center">
+    <br clear='all'>
+    <tr>
+        
+        <th>Name</th>
+        <th>Cover</th>
+        <th width="200">Author</th>
+        <th width="100">Summary</th>
+    </tr>
+    <tr>
+        <td width> Meditations</td>
+        <td> <img src = "https://m.media-amazon.com/images/I/81T-PQ9HFTL._SL1500_.jpg" width="70" height="100"></td>
+        <td> Marcus Aurelius, <br> Gregory Hayes translation</td>
+        <td width> Excerps with spiritual <br> guidance and philosophy</td>
+
+    <tr>
+        <td> The Great Gatsby</td>
+        <td> <img src = "https://m.media-amazon.com/images/I/71FTb9X6wsL._SL1360_.jpg" width="70" height="100"></td>
+        <td> F. Scott Fitzgerald</td>
+        <td height="100"> Takes place in the 1920's,<br>
+             follows a wealthy Jay Gatsby <br>
+             who is in love with his married neighbor</td>
+    <tr>
+        <td> Looking for Alaska</td>
+        <td> <img src = "https://m.media-amazon.com/images/I/713TDKhlVxL._SL1500_.jpg" width="70" height="100"></td>
+        <td> John Green</td>
+        <td> A story about a shy boy who is sent to a <br>
+            boarding school, where he has adventures and <br>
+            falls in love with an excentric girl</td>
+    <tr>
+        <td> Of Mice and Men</td>
+        <td> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg/1024px-Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg" width="70" height="100"></td>
+        <td> John Steinbeck</td>
+        <td height="100"> Follows the story of George and Lenny, a <br>
+            mentally disabled man, as they work on a farm <br>
+            during the Great Depression</td>
+    </tr>
+</table>
+
+</body>
+<div class="container">
+    <form action="">
+      <div class="row">
+        <div>
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="lname">Last Name</label>
+        </div>
+        <div>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="country">Country</label>
+        </div>
+        <div>
+          <select id="country" name="country">
+            <option value="Maine">Maine</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New York">New York</option>
+            <option value="Vermont">Vermont</option>
+            <div class="row">
+                <div>
+                  <label for="City">City</label>
+                </div>
+                <div>
+                  <input type="text" id="City" name="City" placeholder="Your City..">
+                </div>
+              </div>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
